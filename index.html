@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css/normalize.css" />
+    <link rel="stylesheet" href="styles.css/styles.css" />
+  </head>
+  <body>
+    <form
+      class="container"
+      action="https://formspree.io/f/xdoygyje"
+      method="POST"
+    >
+      <h1 class="form-heading">Please sign in</h1>
+      <input
+        type="email"
+        placeholder="Email address"
+        name="Email"
+        id="email"
+        focus
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        name="Password"
+        id="password"
+      />
+      <input type="checkbox" name="remember-me" id="remember-me" />
+      <label for="remember-me">Rembember me</label
+      ><button class="btn" type="Submit">Sign In</button>
+      <p class="form-footer">Copyright &copy; 2021</p>
+    </form>
+  </body>
+</html>
